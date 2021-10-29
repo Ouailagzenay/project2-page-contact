@@ -11,9 +11,10 @@ position: sticky;
 font-size: 16PX;
 text-decoration: none;
 
+
 }
 header{
-    
+    position:sticky ;
     padding: 25PX 3%;
     background-color: rgb(67, 168, 236);
     color: white;
