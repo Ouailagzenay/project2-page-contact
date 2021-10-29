@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    
+}
+li a button {
+font-family: sans-serif;
+position: sticky;
+font-size: 16PX;
+text-decoration: none;
+
+}
+header{
+    position: sticky;
+    padding: 25PX 3%;
+    background-color: rgb(67, 168, 236);
+    color: white;
+}
+.logo {
+    cursor: pointer;
+    font-family:monospace ;
+    float: left;
+    margin-right: 60PX;
+    position:sticky;
+    width: 90PX;
+    margin-right: 60px;
+    margin-bottom: 10PX;
+}
+.menu-bar {
+    list-style: none;
+    color: white;
+}
+.menu-bar li{
+    display: inline-block;
+   
+    padding: 0PX 27PX;
+}
+
+.menu-bar li a:hover{
+color: rgb(228, 228, 228);
+}
+.menu-bar li a{
+    text-decoration: none;
+    margin-top: 30px;
+}
+.menu-bar li :hover{
+color: wheat;
+}
+
+.logn button{
+ padding: 9PX 25PX;
+ background-color: rgb(39, 162, 219);
+border-color: rgb(255, 255, 255);
+border-radius: 5PX;
+color: rgb(255, 255, 255);
+
+}
+.day button {
+    padding: 9PX 25PX;
+    background-color: rgb(86, 13, 121);
+    border: none;
+    border-radius: 5PX;
+    color: rgb(255, 255, 255);
+}
+.day{
+    margin-left: 35PX;
+}
+.logn {
+    margin-right:35px;
+}
