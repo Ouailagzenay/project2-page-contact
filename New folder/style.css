@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    
+}
+li a button {
+font-family: sans-serif;
+position: sticky;
+font-size: 16PX;
+text-decoration: none;
+
+}
+header{
+    
+    padding: 25PX 3%;
+    background-color: rgb(67, 168, 236);
+}
+.logo {
+    cursor: pointer;
+    font-family:monospace ;
+    float: left;
+    margin-right: 60PX;
+    position:sticky;
+    width: 90PX;
+    margin-right: 60px;
+    margin-bottom: 10PX;
+}
+.menu-bar {
+    list-style: none;
+}
+.menu-bar li{
+    display: inline-block;
+   
+    padding: 0PX 27PX;
+}
+
+.menu-bar li a:hover{
+color: rgb(228, 228, 228);
+}
+.menu-bar li a{
+    text-decoration: none;
+    margin-top: 30px;
+}
+.menu-bar li :hover{
+color: wheat;
+}
+
+.logn button{
+ padding: 9PX 25PX;
+ background-color: rgb(39, 162, 219);
+border-color: rgb(255, 255, 255);
+border-radius: 5PX;
+color: rgb(255, 255, 255);
+
+}
+.day button {
+    padding: 9PX 25PX;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5PX;
+    color: rgb(255, 255, 255);
+}
+.day{
+    margin-left: 35PX;
+}
+.logn {
+    margin-right:35px;
+}
+#contact{
+background-color:  rgb(67, 168, 236);
+text-align: center;
+font-size: 18px;
+height: 179pX;
+padding-top:110PX ;
+
+
+}
+h1{font-size: 60PX;
+    color:white;}
+#REACH{
+        width: 38%;
+        padding-top: 6%;
+        background-color: chartreuse;
+        float: left;
+        padding-bottom: 8%;
+        margin-left: 10%;
+        margin-right: 3%;
+    }
+#TEAM {
+    
+    padding-top: 6%;
+    width: 36.5%;
+    float: right ;
+    background-color: rgb(56, 56, 65);
+    padding-bottom: 2%;
+    margin-right: 12%;
+   
+}
+#Others{
+    width:36.5%;
+    float: right ;
+    background-color: rgb(0, 255, 0);
+    margin-bottom: 40PX;
+    padding-bottom: 16%;
+    margin-right: 12%;
+
+}
+h2 {
+    color: blue;
+}
+#Firstname ,#lastname ,#gmail,#phone{
+    width: 96%;
+    padding: 9px;
+    margin-bottom: 25px;
+
+}
+#message{
+ padding-bottom: 110px;
+ width: 99%;
+}
+form button {
+    float: right;
+    margin-top: 20px;
+   padding: 14px 4%;
+}
+p{
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+.fa{
+    width:60px;
+    float: left;
+}
