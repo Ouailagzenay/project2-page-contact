@@ -16,6 +16,7 @@ header{
     
     padding: 25PX 3%;
     background-color: rgb(67, 168, 236);
+    color: white;
 }
 .logo {
     cursor: pointer;
@@ -29,6 +30,7 @@ header{
 }
 .menu-bar {
     list-style: none;
+    color: white;
 }
 .menu-bar li{
     display: inline-block;
@@ -57,7 +59,7 @@ color: rgb(255, 255, 255);
 }
 .day button {
     padding: 9PX 25PX;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(86, 13, 121);
     border: none;
     border-radius: 5PX;
     color: rgb(255, 255, 255);
@@ -82,7 +84,6 @@ h1{font-size: 60PX;
 #REACH{
         width: 38%;
         padding-top: 6%;
-        background-color: chartreuse;
         float: left;
         padding-bottom: 8%;
         margin-left: 10%;
@@ -93,7 +94,6 @@ h1{font-size: 60PX;
     padding-top: 6%;
     width: 36.5%;
     float: right ;
-    background-color: rgb(56, 56, 65);
     padding-bottom: 2%;
     margin-right: 12%;
    
@@ -101,7 +101,6 @@ h1{font-size: 60PX;
 #Others{
     width:36.5%;
     float: right ;
-    background-color: rgb(0, 255, 0);
     margin-bottom: 40PX;
     padding-bottom: 16%;
     margin-right: 12%;
@@ -133,4 +132,99 @@ p{
 .fa{
     width:60px;
     float: left;
+}
+#fa{
+    float: left;
+    margin-right: 15px;
+}
+form button{
+    background-color: rgb(86, 13, 121);;
+}
+  footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #504343;
+    font-family: sans-serif;
+}
+.titles{
+    float: left;
+    line-height: 1.6rem;
+    margin: 20px 40px;
+}
+.clearfix{
+    clear: both;
+}
+.titles ul{
+    list-style: none;
+}
+h5{
+    color: #ffffff;
+}
+.nav-footer{
+    color: #b7b7b7;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#footertext{
+    font-size: 0.75em;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+.footerlast{
+    background-color: #493e3e;
+    padding: 10px 50px;
+}
+.color_orange{
+    color: #aa3d0a;
+}
+.icons i{
+    display: inline-block;
+    margin-right: 5px;
+}
+.icons #facebook{
+    font-size: small;
+    color: rgb(204, 102, 7);
+}
+.icons #twitter {
+    font-size: small;
+    color: rgb(204, 102, 7);
+
+}
+.icons #instagram{
+    font-size: small;
+    color: rgb(204, 102, 7);
+
+}
+.icons #linkedin{
+   font-size: small;
+   color: rgb(204, 102, 7);
+
+}
+#footerbtn{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 40px;
+    background-color :rgb(86, 13, 121);
+    border-radius: 8px;
+    color: white;
+}
+#footerbtn:hover{
+    background-color: #FAAF40;
+}
+.fa-facebook-square{
+    font-size: 50px;
+    color: rgb(204, 102, 7);
+
+}
+.fa-twitter-square{
+    font-size: 50px;
+    color: rgb(204, 102, 7);
+
+}
+.fa-linkedin{
+    font-size: 50px;
+    color: rgb(204, 102, 7);
+    
+
 }
