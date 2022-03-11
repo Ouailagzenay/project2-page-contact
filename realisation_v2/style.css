@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    
+}
+li a button {
+font-family: sans-serif;
+position: sticky;
+font-size: 16PX;
+text-decoration: none;
+
+
+}
+header{
+    position:sticky ;
+    padding: 25PX 3%;
+    background-color: rgb(67, 168, 236);
+    color: white;
+}
+.logo {
+    cursor: pointer;
+    font-family:monospace ;
+    float: left;
+    margin-right: 60PX;
+    position:sticky;
+    width: 90PX;
+    margin-right: 60px;
+    margin-bottom: 10PX;
+}
+.menu-bar {
+    list-style: none;
+    color: white;
+}
+.menu-bar li{
+    display: inline-block;
+   
+    padding: 0PX 27PX;
+}
+
+.menu-bar li a:hover{
+color: rgb(228, 228, 228);
+}
+.menu-bar li a{
+    text-decoration: none;
+    margin-top: 30px;
+}
+.menu-bar li :hover{
+color: wheat;
+}
+
+.logn button{
+ padding: 9PX 25PX;
+ background-color: rgb(39, 162, 219);
+border-color: rgb(255, 255, 255);
+border-radius: 5PX;
+color: rgb(255, 255, 255);
+
+}
+.day button {
+    padding: 9PX 25PX;
+    background-color: rgb(86, 13, 121);
+    border: none;
+    border-radius: 5PX;
+    color: rgb(255, 255, 255);
+}
+.day{
+    margin-left: 35PX;
+}
+.logn {
+    margin-right:35px;
+}
+#contact{
+background-color:  rgb(67, 168, 236);
+text-align: center;
+font-size: 18px;
+height: 179pX;
+padding-top:110PX ;
+
+
+}
+h1{font-size: 60PX;
+    color:white;}
+#REACH{
+        width: 38%;
+        padding-top: 6%;
+        float: left;
+        padding-bottom: 8%;
+        margin-left: 10%;
+        margin-right: 3%;
+    }
+#TEAM {
+    
+    padding-top: 6%;
+    width: 36.5%;
+    float: right ;
+    padding-bottom: 2%;
+    margin-right: 12%;
+   
+}
+#Others{
+    width:36.5%;
+    float: right ;
+    margin-bottom: 40PX;
+    padding-bottom: 16%;
+    margin-right: 12%;
+
+}
+h2 {
+    color: blue;
+}
+#Firstname ,#lastname ,#gmail,#phone{
+    width: 96%;
+    padding: 9px;
+    margin-bottom: 25px;
+
+}
+#message{
+ padding-bottom: 110px;
+ width: 99%;
+}
+form button {
+    float: right;
+    margin-top: 20px;
+   padding: 14px 4%;
+}
+p{
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+.fa{
+    width:60px;
+    float: left;
+}
+#fa{
+    float: left;
+    margin-right: 15px;
+}
+form button{
+    background-color: rgb(86, 13, 121);;
+}
+  footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #504343;
+    font-family: sans-serif;
+}
+.titles{
+    float: left;
+    line-height: 1.6rem;
+    margin: 20px 40px;
+}
+.clearfix{
+    clear: both;
+}
+.titles ul{
+    list-style: none;
+}
+h5{
+    color: #ffffff;
+}
+.nav-footer{
+    color: #b7b7b7;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#footertext{
+    font-size: 0.75em;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+.footerlast{
+    background-color: #493e3e;
+    padding: 10px 50px;
+}
+.color_orange{
+    color: #aa3d0a;
+}
+.icons i{
+    display: inline-block;
+    margin-right: 5px;
+}
+.icons #facebook{
+    font-size: small;
+    color: rgb(204, 102, 7);
+}
+.icons #twitter {
+    font-size: small;
+    color: rgb(204, 102, 7);
+
+}
+.icons #instagram{
+    font-size: small;
+    color: rgb(204, 102, 7);
+
+}
+.icons #linkedin{
+   font-size: small;
+   color: rgb(204, 102, 7);
+
+}
+#footerbtn{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 40px;
+    background-color :rgb(86, 13, 121);
+    border-radius: 8px;
+    color: white;
+}
+#footerbtn:hover{
+    background-color: #FAAF40;
+}
+.fa-facebook-square{
+    font-size: 50px;
+    color: rgb(204, 102, 7);
+
+}
+.fa-twitter-square{
+    font-size: 50px;
+    color: rgb(204, 102, 7);
+
+}
+.fa-linkedin{
+    font-size: 50px;
+    color: rgb(204, 102, 7);
+    
+
+}
